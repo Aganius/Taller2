@@ -5,7 +5,9 @@ package edu.udem.taller2.model;
  * to be copied or deleted in Linux.
  *
  */
-public class FolderEXT extends ResourcesEXT {
+public class FolderEXT extends FolderAbstract {
+
+	private String type;
 
 	/* 
 	 * Method used to copy a EXT file.

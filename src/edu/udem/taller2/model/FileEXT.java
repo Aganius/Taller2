@@ -5,7 +5,7 @@ package edu.udem.taller2.model;
  * be copied or deleted in Linux.
  *
  */
-public class FileEXT extends ResourcesEXT {
+public class FileEXT extends FileAbstract {
 
 	private String type;
 

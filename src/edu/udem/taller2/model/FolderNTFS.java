@@ -5,7 +5,9 @@ package edu.udem.taller2.model;
  * to be copied or deleted in Windows.
  *
  */
-public class FolderNTFS extends ResourcesNTFS {
+public class FolderNTFS extends FolderAbstract {
+
+	private String type;
 
 	/* 
 	 * Method used to copy a NTFS file.
